@@ -413,16 +413,15 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6 animate" data-animate="fadeInUp">
-                                        <form name="contact" method="POST" data-netlify="true">
-                                            <p>
+                                        <form id="ajax-contact" method="post" action="data-netlify">
                                             <div class="input-field">
-                                            <label> <input type="text" class="form-control" name="name" id="name" required placeholder="Name"></label>
+                                                <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
                                             </div>
                                             <div class="input-field">
-                                                <label>   <input type="email" class="form-control" name="email" id="email" required placeholder="Email"></label>
+                                                <input type="email" class="form-control" name="email" id="email" required placeholder="Email">
                                             </div>
                                             <div class="input-field">
-                                                <label>  <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea></label>
+                                                <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
                                             </div>
                                             <button class="btn" type="submit">Submit</button>
                                         </form>
